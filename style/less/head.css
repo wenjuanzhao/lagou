@@ -1,0 +1,9 @@
+.head {
+  background-color: #12d5b5;
+  height: 40 rem;
+  line-height: 40 rem;
+  padding: 0 7px;
+}
+.head .text {
+  color: #fff;
+}
