@@ -2,7 +2,7 @@
   background-color: #12d5b5;
   height: 1.06666667rem;
   line-height: 1.06666667rem;
-  padding: 8px 7px;
+  padding: 0 7px;
 }
 .head .text {
   color: #fff;
@@ -290,6 +290,7 @@
   margin-top: 75px;
   background-color: #12d5b5;
   color: #fff;
+
 }
 .login form button.register-btn {
   margin-top: 20px;
@@ -419,8 +420,8 @@
   color: #fff;
   font-size: 0.42666667rem;
   width: 9.06666667rem;
-  height: 1.06666667rem;
   margin-top: 8rem;
+  padding: 1rem;
 }
 .me .btns {
   margin-top: 1.06666667rem;
@@ -519,7 +520,6 @@
 .ng-enter {
   transition: 0.5s linear all;
   opacity: 0;
-  padding: 1px;
 }
 /* The finishing CSS styles for the enter animation */
 .ng-enter-active {

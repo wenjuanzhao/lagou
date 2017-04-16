@@ -10,14 +10,24 @@
 </head>
 <body>
 <div ui-view></div>
+<script type="text/javascript">
+    document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px'
+</script>
+
 </body>
 <script src="frame/angular.js"></script>
 <script src="frame/angular-ui-router.js"></script>
 <script src="js/app.js"></script>
 <script src="js/config-router.js"></script>
 <script src="frame/angular-cookie.js"></script>
+<script src="frame/angular-validation.js"></script>
 <script src="js/service/ui-load.js"></script>
 <script src="frame/ocLazyLoad.js"></script>
 <script src="js/config.js"></script>
+<!--全局变量的文件-->
+<script src="js/config/dict.js"></script>
+<!--过滤器-->
+<script src="js/filter/filterByObj.js"></script>
 <script src="js/service/cache.js"></script>
+<script src="js/config/validation.js"></script>
 </html>
